@@ -97,10 +97,10 @@ if __name__ == '__main__':
       while can_move(water_unit, cave, Direction.left):
         water_unit.move(Direction.left)
       cave.mark(water_unit)
-    if water % 7 == 0:
-      os.system('cls')
-      for i in cave.layout: print(''.join([to_output_format(x) for x in i]))
-      time.sleep(.05)
+#     if water % 7 == 0:
+#       os.system('cls')
+#       for i in cave.layout: print(''.join([to_output_format(x) for x in i]))
+#       time.sleep(.05)
   
   os.system('cls')
   for i in cave.layout: print(''.join([to_output_format(x) for x in i]))
